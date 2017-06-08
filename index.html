@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<h1>Exact Assembly Software Blog</h1>
-<h2>Software musings from the XA team</h2>
-<div>
+<div id="blog-header">
+  <div id="blog-title">Exact Assembly Software Blog</div>
+  <div id="blog-subtitle">Software musings from the XA team</div>
+</div>
+<div id="post-container">
   {% for post in site.posts %}
     <div class="post">
       <div class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></div>

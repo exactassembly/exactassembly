@@ -1,16 +1,29 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+}
 .posttitle {
     font-size: 18px;
+    font-size: 36px;
+    color: #615fff;
+    text-decoration: none;
+    text-shadow: 0 0 3px rgba(141, 140, 251, 0.36);
 }
 .date {
     color: #b5e853;
     font-size: 13px;
 }
+.post-container {
+    max-width: 800px;
+}
 .post {
     background: #000;
     padding: 25px 25px 5px 25px;
     border-radius: 5px;
+    color: #fff;
 }
 
