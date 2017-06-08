@@ -5,14 +5,16 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+    background-color: #eee;
 }
 #blog-header {
     margin-bottom: 25px;
-    margin-left: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
     background-color: #fff;
     padding: 18px 25px;
     border-radius: 5px;
-    width: 850px;
+    width: 875px;
 }
 #blog-title {
     font-size: 58px;
