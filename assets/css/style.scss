@@ -8,26 +8,30 @@ body {
 }
 #blog-header {
     margin-bottom: 25px;
+    margin-left: 25px;
+    background-color: #fff;
+    padding: 18px 25px;
+    border-radius: 5px;
+    width: 850px;
 }
 #blog-title {
-    font-size: 55px;
+    font-size: 58px;
 }
 #blog-subtitle {
-    font-size: 30px;
+    font-size: 28px;
 }
 .posttitle > a {
-    font-size: 18px;
-    font-size: 36px;
-    color: #615fff;
+    font-size: 40px;
+    color: #fff;
     text-decoration: none;
-    text-shadow: 0 0 3px rgba(141, 140, 251, 0.36);
 }
 .date {
-    color: #b5e853;
+    color: #9ae853;
     font-size: 13px;
 }
 #post-container {
     max-width: 800px;
+    margin-left: 15px;
 }
 .post {
     background: #000;
