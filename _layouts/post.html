@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<!DOCTYPE html>
-<div id="post-container">  
+<div class="back-btn"><</div>
+<div id="post-container single-post">  
   <div class="post">
     <div class="posttitle">{{ page.title }}</div>
-    <div class="date">{{ page.date }}</div>
+    <div class="date">{{ post.date | date: "%A, %B %d, %Y" }}</div>
     <div class="postcontent">{{ content }}</div>
   </div>
 </div>
