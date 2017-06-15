@@ -89,8 +89,11 @@ body {
 #social i {
     color: #222;
 }
-#social i:hover {
-    color: #f13d3d
+#social i.fa-twitter:hover {
+    color: #1da1f2
+}
+#social i.fa-envelope:hover {
+    color: #9ae853;
 }
 .xa-ico {
     margin: 6px 1px;
