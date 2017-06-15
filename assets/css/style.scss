@@ -78,6 +78,13 @@ body {
     font-size: 24px;
     background-color: #fff;
     padding: 10px 15px;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    top: 130px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin: 0;
 }
 #social i {
     color: #222;
@@ -86,5 +93,13 @@ body {
     color: #f13d3d
 }
 .xa-ico {
-    max-height: 24px;
+    margin: 6px 1px;
+    background-image: url("/assets/xa_ico_black.png");
+    height: 23px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.xa-ico:hover {
+    background-image: url("/assets/xa_ico.png");
 }
